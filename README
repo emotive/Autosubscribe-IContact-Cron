@@ -1,0 +1,31 @@
+iContact AutoSubscribe CRON Scripts
+Copyright (C) 2010  emotive, llc
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
+INSTALL
+
+1) Place the contents of the /AutoSubscribe/ folder in your web root
+2) Edit the config.inc file and insert your icontact login information, the mailing list ID that you want to subscribe contacts to and API key 
+
+
+For Joomla: 
+3) Point your cron script to /AutoSubscribe/Joomla.php
+
+
+
+To get your API key from iContact visit this page:
+http://developer.icontact.com/documentation/register-and-enable-your-application
+
+To get your mailing ID number, just log into your account and view the mailing list.  In the URL will be the mailing ID
