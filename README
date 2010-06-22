@@ -23,9 +23,26 @@ INSTALL
 For Joomla: 
 3) Point your cron script to /AutoSubscribe/Joomla.php
 
+For Disqus: 
+4) Point your cron script to /AutoSubscribe/Disqus.php
 
+
+
+__________________________________________________________________
+
+ICONTACT API INSTRUCTIONS
 
 To get your API key from iContact visit this page:
 http://developer.icontact.com/documentation/register-and-enable-your-application
 
 To get your mailing ID number, just log into your account and view the mailing list.  In the URL will be the mailing ID
+
+
+DISQUS API INSTRUCTIONS
+
+You can get your DISQUS API key here (you must already be logged in):
+http://disqus.com/api/get_my_key/
+
+Then you can get your DISQUS forum ID from this URL:
+http://disqus.com/api/get_forum_list?user_api_key=API_KEY_HERE&api_version=1.1
+
